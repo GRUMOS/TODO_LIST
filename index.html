@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/011226927e.js" crossorigin="anonymous"></script>
+    <title>Desafío Todo List</title>
+</head>
+<body>
+    <header>
+        <h1>Todo list</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Nueva tarea</h2>
+                <input type="text" id="task-name">
+                <button onclick="addTask()" id="btn-add">Agregar</button>
+        </section>
+    
+
+        <section id="task-container">
+            <section id="task-list-sumary">
+                <ul id="tasks-list">
+                </ul>
+                <div id="task-summary">
+                    <p>Total: <span id="total-tasks">0</span></p>
+                    <p>Realizadas: <span id="completed-tasks">0</span></p>
+                </div>
+            </section>
+            <section id="task-list-name-id">
+                <div id="task-name-summary">
+                    <h3><p>ID</p></h3>
+                    <h3><p>Tarea</p></h3>
+                </div>
+                <ul id="tasks-list-name">
+                   
+                </ul>
+            </section>
+        </section>
+        
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
